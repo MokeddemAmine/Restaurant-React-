@@ -1,2 +1,76 @@
 // Import all of Bootstrap's CSS
+
+// change font family
+$font-family-inter: 'Inter','sans-serif';
+$font-family-cursive:'Ephesis','cursive';
+
+// change theme colors
+$primary : #E83667;
+$primaryDark : #BB2C51;
+$secondary: #21D4B9;
+$dark :#303030;
+
+$theme-colors:(
+    'primary':$primary,
+    'secondary':$secondary,
+    'dark':$dark,
+);
+
+$custom-colors:(
+    'primaryDark':$primaryDark
+);
+
+$theme-colors:map-merge($theme-colors,$custom-colors);
+// change container 
+$container-padding-x: 1rem;   
+$container-sm-padding-x: 2rem;    
+$container-lg-padding-x: 3rem;    
+$container-xl-padding-x: 4rem;    
 @import "bootstrap/scss/bootstrap";
+
+// General style
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none !important;
+}
+
+// Start Navbar
+#navlinks {
+    a{
+        transition: .3s;
+    }
+     a.hover-link1{
+        &:hover{
+            color:$primary !important;
+        }
+    }
+    a.hover-link2{
+        &:hover{
+            background-color: rgb(232 54 103 / 20%) !important;
+        }
+    }
+    
+    .dropdown-link {
+        .caret, .drop-links{
+            transition: .3s; 
+        }
+        &:hover{
+            .caret{
+                transform: rotate(180deg);
+            }  
+            .drop-links{
+                display: block !important;
+            }
+        }
+    }
+    #my-account-btn{
+        transition: .3s;
+        &:hover{
+            transform: scale(105%);
+        }
+    }
+}
+
+

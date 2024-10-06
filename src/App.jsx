@@ -1,9 +1,10 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App bg-dark text-white">
-      React App
+    <div className="App">
+      <Navbar/>
     </div>
   );
 }
