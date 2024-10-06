@@ -86,4 +86,43 @@ ul{
     }
 }
 
+// banner section 
+#fruits {
+    .leaf{
+        top:2rem;
+        left:0;
+        img{
+            max-width: 160px;
+        }
+    }
+    .lemon{
+        top:3rem;
+        right:0;
+        img{
+            max-width: 200px;
+        }
+    }
+    .tomato{
+        bottom:4rem;
+        left:-1rem;
+        img{
+            max-width: 260px;
+        }
+    }
+    .apple{
+        bottom:2rem;
+        right:-1rem;
+        img{
+            max-width: 200px;
+        }
+    }
+    .kiwi{
+        top:47%;
+        left:33%;
+        transform: translateY(-50%);
+        img{
+            max-width: 180px;
+        }
+    }
+}
 
