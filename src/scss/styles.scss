@@ -9,6 +9,7 @@ $primary : #E83667;
 $primaryDark : #BB2C51;
 $secondary: #21D4B9;
 $dark :#303030;
+$gray:#6c757d;
 
 $theme-colors:(
     'primary':$primary,
@@ -17,7 +18,8 @@ $theme-colors:(
 );
 
 $custom-colors:(
-    'primaryDark':$primaryDark
+    'primaryDark':$primaryDark,
+    'gray':$gray,
 );
 
 $theme-colors:map-merge($theme-colors,$custom-colors);
@@ -35,7 +37,10 @@ a{
 ul{
     list-style: none !important;
 }
-
+.rotate-90{
+    letter-spacing: .2rem;
+    transform: translateX(.5rem) rotate(90deg);
+}
 // Start Navbar
 #navlinks {
     a{
