@@ -41,6 +41,9 @@ ul{
     letter-spacing: .2rem;
     transform: translateX(.5rem) rotate(90deg);
 }
+.cursor-pointer{
+    cursor: pointer;
+}
 // Start Navbar
 #navlinks {
     a{
@@ -138,4 +141,28 @@ footer{
         border-top-right-radius: 1rem ;
     }
 }
+
+// login section 
+.login{
+    background-color: rgba(0,0,0,.5);
+    backdrop-filter: blur(3px); 
+    -webkit-backdrop-filter: blur(3px); 
+    .form{
+        transform: translate(-50%,-50%);
+        width:300px;
+    }
+    .facebook-icon{
+        transition:.3s;
+        &:hover{
+            color:#0d6efd;
+        }
+    }
+    .google-icon{
+        transition:.3s;
+        &:hover{
+            color:#dc3545;
+        }
+    }
+}
+
 
