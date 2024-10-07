@@ -41,7 +41,7 @@ export default function Navbar() {
   return (
     <>
     
-      <div className="navbar navbar-expand-lg bg-white shadow">
+      <div data-aos="fade" className="navbar navbar-expand-lg bg-white shadow">
         <div className="container d-flex justify-content-between align-items-center py-4 py-sm-3">
             {/* logo section  */}
             <div className="fw-bold text-capitalize fs-3">logo</div>

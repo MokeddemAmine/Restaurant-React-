@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <footer className='mt-3'>
-      <div className="container bg-primary py-3 px-3 px-lg-5">
+      <div data-aos="fade-down" className="container bg-primary py-3 px-3 px-lg-5">
             <h2 className="text-center fs-2 text-capitalize text-white my-3">contact us</h2>
             <div className="row my-4">
                 <div className="col-md-4 text-center text-white p-3 p-md-5">
