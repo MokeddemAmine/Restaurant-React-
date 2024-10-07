@@ -10,7 +10,7 @@ export default function Banner() {
   return (
     <>
       <div className="container py-5 position-relative">
-        <h1 className="z-1 fw-semibold text-dark fs-2 text-capitalize text-center my-5">taste the healthy difference</h1>
+        <h2 className="z-1 fw-semibold text-dark fs-2 text-capitalize text-center my-5">taste the healthy difference</h2>
         <div className="row py-5 z-1">
             <div className="col-md-6 fw-semibold">
                 We know that <span className="text-primary">time</span> is the greatest value in the modern world. Our healthy meal plan delivery service Good Food in Tlemcen is the answer for those who want to eat healthily, saving time for buying food and preparing delicious, healthly meals.

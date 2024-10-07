@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About/About';
 import Banner from './components/Banner/Banner';
 import ChooseUs from './components/ChooseUs/ChooseUs';
 import Hero from './components/Hero/Hero';
@@ -11,6 +12,8 @@ function App() {
       <Hero/>
       <Banner/>
       <ChooseUs/>
+      <About/>
+      <Banner/>
     </div>
   );
 }

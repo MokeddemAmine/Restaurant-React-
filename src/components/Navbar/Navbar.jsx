@@ -1,5 +1,6 @@
 import React from 'react'
-import {FaBars, FaCaretDown, FaUser} from 'react-icons/fa';
+import {FaBars, FaCaretDown} from 'react-icons/fa';
+import SecondaryButton from '../Shared/SecondaryButton';
 
 const NavLinks = [
     {
@@ -83,10 +84,7 @@ export default function Navbar() {
                     </li>
                     {/* login button section  */}
                     <li>
-                        <button className='text-capitalize bg-secondary border-0 text-white d-flex align-items-center gap-2 px-3 py-1 fs-6' id='my-account-btn'>
-                            <FaUser/>
-                            my account
-                        </button>
+                        <SecondaryButton backColor="#21D4B9"/>
                     </li>
                 </ul>
             </div>
